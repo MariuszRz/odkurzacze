@@ -1,7 +1,8 @@
 import React from "react";
+import { Wraper } from "./container.css";
 
 const Container = ({ children }) => {
-    return <div>{children}</div>;
+    return <Wraper>{children}</Wraper>;
 };
 
 export default Container;

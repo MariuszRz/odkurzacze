@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "http://localhost:80/galeria/",
+    baseURL: "http://localhost:80/galeria/"
+
 });
 
 export default instance;
